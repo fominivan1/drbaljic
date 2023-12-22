@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(4, 4, 4);
 }
 
 .App-link {
@@ -35,4 +35,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-image:  url('/public/images/doctordesk.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
