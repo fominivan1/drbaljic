@@ -1,11 +1,9 @@
-// src/App.js
-import React, { useState } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import styled from 'styled-components';
-// import AppointmentScheduler from './components/AppointmentScheduler';
-// import Appointments from './components/Appointments';
 import Home from './components/Home';
-import About from './components/About'
+import About from './components/About';
+import Links from './components/Links';
 import './App.css';
 
 const AppContainer = styled.div`
@@ -23,40 +21,29 @@ const Navigation = styled.nav`
     color: black;
     text-decoration: none;
     margin-right: 15px;
+    transition: color 0.3s ease; /* Add smooth transition for color change */
+  }
+
+  a:hover,
+  a:focus,
+  a:active {
+    color: blue;
   }
 `;
 
 const App = () => {
-
-  // const [appointments, setAppointments] = useState([
-  //   { id: 1, patientName: 'John Doe', date: '2023-01-01' },
-  //   { id: 2, patientName: 'Jane Smith', date: '2023-02-01' },
-  //   // Add more appointment data as needed
-  // ]);
-
-  // const scheduleAppointment = ({ patientName, appointmentDate }) => {
-  //   const newAppointment = {
-  //     id: appointments.length + 1,
-  //     patientName,
-  //     date: appointmentDate,
-  //   };
-
-  //   setAppointments([...appointments, newAppointment]);
-
-  //   // You can add logic to send this appointment data to a server for storage
-  //   // This is a simplified example without server integration
-  // };
-
   return (
     <Router>
       <AppContainer>
         <Navigation>
           <Link to="/">Home</Link>
           <Link to="/About">About</Link>
+          <Link to="/Links">Links</Link>
         </Navigation>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
+          <Route path="/Links" element={<Links />} />
         </Routes>
       </AppContainer>
     </Router>
