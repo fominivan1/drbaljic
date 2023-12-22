@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.54c11b4e.css",
-    "main.js": "/static/js/main.53567d75.js",
-    "static/js/787.fa9cb370.chunk.js": "/static/js/787.fa9cb370.chunk.js",
-    "static/media/doctordesk.jpg": "/static/media/doctordesk.ebadbcdd754dd541f14f.jpg",
-    "index.html": "/index.html",
-    "main.54c11b4e.css.map": "/static/css/main.54c11b4e.css.map",
-    "main.53567d75.js.map": "/static/js/main.53567d75.js.map",
-    "787.fa9cb370.chunk.js.map": "/static/js/787.fa9cb370.chunk.js.map"
+    "main.css": "/drbaljic/static/css/main.a9560ea8.css",
+    "main.js": "/drbaljic/static/js/main.0d568dea.js",
+    "static/js/787.fa9cb370.chunk.js": "/drbaljic/static/js/787.fa9cb370.chunk.js",
+    "static/media/doctordesk.jpg": "/drbaljic/static/media/doctordesk.ebadbcdd754dd541f14f.jpg",
+    "index.html": "/drbaljic/index.html",
+    "main.a9560ea8.css.map": "/drbaljic/static/css/main.a9560ea8.css.map",
+    "main.0d568dea.js.map": "/drbaljic/static/js/main.0d568dea.js.map",
+    "787.fa9cb370.chunk.js.map": "/drbaljic/static/js/787.fa9cb370.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54c11b4e.css",
-    "static/js/main.53567d75.js"
+    "static/css/main.a9560ea8.css",
+    "static/js/main.0d568dea.js"
   ]
 }
