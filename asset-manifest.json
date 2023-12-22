@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.54c11b4e.css",
+    "main.js": "/static/js/main.53567d75.js",
+    "static/js/787.fa9cb370.chunk.js": "/static/js/787.fa9cb370.chunk.js",
+    "static/media/doctordesk.jpg": "/static/media/doctordesk.ebadbcdd754dd541f14f.jpg",
+    "index.html": "/index.html",
+    "main.54c11b4e.css.map": "/static/css/main.54c11b4e.css.map",
+    "main.53567d75.js.map": "/static/js/main.53567d75.js.map",
+    "787.fa9cb370.chunk.js.map": "/static/js/787.fa9cb370.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54c11b4e.css",
+    "static/js/main.53567d75.js"
+  ]
+}
