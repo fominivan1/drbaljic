@@ -24,7 +24,7 @@ const About = () => (
     <h4>
       Dr. Christel Baljic, MD
     </h4>
-    <p>Christel Baljic, MD graduated in 2004 from the University of Illinois at Chicago and completed her physician training in Sacramento, CA at the Mercy Methodist Family Practice Residency Program. After ten years of experience at Med7 Urgent Care Centers (now Carbon Health), Christel opened her own micropractice in Rio Linda, CA.</p>
+    <p>Christel Baljic, MD graduated in 2008 from the University of Illinois at Chicago and completed her physician training in Sacramento, CA at the Mercy Methodist Family Practice Residency Program. After ten years of experience at Med7 Urgent Care Centers (now Carbon Health), Christel opened her own micropractice in Rio Linda, CA.</p>
     </div>
     </PictureContainer>
   </div>
